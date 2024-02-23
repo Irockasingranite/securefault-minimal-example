@@ -1,0 +1,22 @@
+manifest:
+  remotes:
+    - name: ncs
+      url-base: https://github.com/nrfconnect
+    - name: u-blox
+      url-base: https://github.com/u-blox
+  
+  projects:
+    - name: sdk-nrf
+      path: nrf
+      remote: ncs
+      repo-path: sdk-nrf
+      revision: v2.5.0
+      import: true
+  
+    - name: ubxlib
+      path: modules/lib/ubxlib
+      remote: u-blox
+      repo-path: ubxlib
+      revision: 9694ef9d70e6e7d90562174e8c4d52555d8730da # master as of 2024-02-23
+      submodules: true
+      clone-depth: 1

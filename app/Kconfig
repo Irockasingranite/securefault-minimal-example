@@ -1,0 +1,11 @@
+menu "SecureFault Example"
+
+module = MAIN
+module-str = "main"
+source "subsys/logging/Kconfig.template.log_config"
+
+endmenu
+
+menu "Zephyr Kernel"
+source "Kconfig.zephyr"
+endmenu
