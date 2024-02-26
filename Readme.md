@@ -7,7 +7,7 @@ Clone this repository and initialize a workspace in its top directory:
 git clone https://github.com/Irockasingranite/securefault-minimal-example
 cd securefault-minimal-example
 west init -l app
-wet update
+west update
 ```
 
 Build and flash the application:
